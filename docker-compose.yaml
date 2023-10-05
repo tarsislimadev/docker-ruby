@@ -1,1 +1,11 @@
+version: '3'
 
+services:
+
+  latest:
+    image: tmvdl/ruby:latest
+    build: './src/latest'
+
+  twurl:
+    image: tmvdl/ruby:twurl
+    build: './src/twurl'
